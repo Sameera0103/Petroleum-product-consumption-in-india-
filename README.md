@@ -4,7 +4,7 @@ Datasource:(https://www.kaggle.com/datasets/tahzeer/consumption-of-petroleum-pro
 Reference:Kaggle.com
 
 ## how to run the code and any dependency:
-      Petroleum Product Consumption n India
+      Petroleum Product Consumption in India
 
 ## how to Run:
 install jupyter notebook in your command prompt
@@ -15,6 +15,9 @@ install jupyter notebook in your command prompt
                 3.open jupyter notebook
                 4.type the code & excecute the given code
 ## This project is designed to analyse the petroleum product cosumption in India using machine learning 
+
+## overview 
+  This project aims to provide the analyses and the recent trends in the petroleum product consumption in india.It analyses the price,consumption,increasing demands,and the crisis and produces the structured view on the collected data.
 
 ## Table of Contents
 1.Dependencies
@@ -36,16 +39,21 @@ You can install the required Python packages using the following command:
 ```bash
 pip install -r requirements.txt
 ```
+## Required libraries 
+-Pandas 
+-Numpy 
+-Seaborn
+-Matplotlib
 
 ## Installation
 1.Clone the repository to your local machine:
-
+```bash
 git clone https://github.com/Sameera0103/petroleum-consumption-analysis.git
-
+```
 2.Change into the project directory:
-
+```bash
 cd petroleum-consumption-analysis
-
+```
 ## Data
 The analysis uses historical petroleum consumption data for India. Ensure you have the dataset available in the data directory before running the code. You can obtain the dataset from below
 
@@ -53,10 +61,13 @@ The analysis uses historical petroleum consumption data for India. Ensure you ha
 
 ## Usage
 1.Open the Jupyter Notebook (recommended) or run the Python script directly.
-
+```bash
 jupyter notebook petroleum_consumption_analysis.ipynb
+```
 or
+```bash
 python petroleum_consumption_analysis.py
+```
 1.Follow the instructions in the notebook or script to execute the analysis.
 
 ## Results
