@@ -33,7 +33,9 @@ Before running the code, ensure that you have the following dependencies install
 
 You can install the required Python packages using the following command:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## Installation
 1.Clone the repository to your local machine:
